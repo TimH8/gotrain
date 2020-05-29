@@ -6,9 +6,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rijdendetreinen/gotrain/api"
-	"github.com/rijdendetreinen/gotrain/receiver"
-	"github.com/rijdendetreinen/gotrain/stores"
+	"github.com/TimH8/gotrain/api"
+	"github.com/TimH8/gotrain/receiver"
+	"github.com/TimH8/gotrain/stores"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

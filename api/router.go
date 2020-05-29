@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/rijdendetreinen/gotrain/stores"
+	"github.com/TimH8/gotrain/stores"
 
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"

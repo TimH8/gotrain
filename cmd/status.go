@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/rijdendetreinen/gotrain/stores"
+	"github.com/TimH8/gotrain/stores"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/rijdendetreinen/gotrain/models"
-	"github.com/rijdendetreinen/gotrain/stores"
+	"github.com/TimH8/gotrain/models"
+	"github.com/TimH8/gotrain/stores"
 )
 
 // Statistics includes counters and the inventory

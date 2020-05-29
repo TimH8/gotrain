@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"sort"
 
+	"github.com/TimH8/gotrain/models"
+	"github.com/TimH8/gotrain/stores"
 	"github.com/gorilla/mux"
-	"github.com/rijdendetreinen/gotrain/models"
-	"github.com/rijdendetreinen/gotrain/stores"
 )
 
 func arrivalCounters(w http.ResponseWriter, r *http.Request) {

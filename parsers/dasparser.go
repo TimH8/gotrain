@@ -5,8 +5,8 @@ import (
 	"io"
 	"strconv"
 
+	"github.com/TimH8/gotrain/models"
 	"github.com/beevik/etree"
-	"github.com/rijdendetreinen/gotrain/models"
 )
 
 // ParseDasMessage parses a DAS XML message to an Arrival object

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/rijdendetreinen/gotrain/models"
-	"github.com/rijdendetreinen/gotrain/parsers"
+	"github.com/TimH8/gotrain/models"
+	"github.com/TimH8/gotrain/parsers"
 	"github.com/spf13/cobra"
 )
 

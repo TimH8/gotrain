@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/TimH8/gotrain/models"
 	"github.com/beevik/etree"
 	"github.com/rickb777/date/period"
-	"github.com/rijdendetreinen/gotrain/models"
 )
 
 // ParseInfoPlusBoolean returns true when this is a InfoPlus boolean type which is true

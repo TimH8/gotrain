@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rijdendetreinen/gotrain/archiver"
+	"github.com/TimH8/gotrain/archiver"
 
+	"github.com/TimH8/gotrain/parsers"
+	"github.com/TimH8/gotrain/stores"
 	"github.com/pebbe/zmq4"
-	"github.com/rijdendetreinen/gotrain/parsers"
-	"github.com/rijdendetreinen/gotrain/stores"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/TimH8/gotrain/models"
 	"github.com/beevik/etree"
-	"github.com/rijdendetreinen/gotrain/models"
 )
 
 // ParseRitMessage parses a RIT XML message to a Service object

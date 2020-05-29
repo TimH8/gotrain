@@ -14,7 +14,7 @@ var aboutCmd = &cobra.Command{
 		fmt.Println(`GoTrain is a server application for receiving and processing real-time information about Dutch train services.
 It is able to receive real-time departures, arrivals and service messages.
 
-More information: https://github.com/rijdendetreinen/gotrain/`)
+More information: https://github.com/TimH8/gotrain/`)
 	},
 }
 

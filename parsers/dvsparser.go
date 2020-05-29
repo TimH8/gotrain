@@ -6,8 +6,8 @@ import (
 	"io"
 	"strconv"
 
+	"github.com/TimH8/gotrain/models"
 	"github.com/beevik/etree"
-	"github.com/rijdendetreinen/gotrain/models"
 )
 
 // ParseDvsMessage parses a DVS XML message to a Departure object

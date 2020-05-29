@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/TimH8/gotrain/models"
 	"github.com/go-redis/redis"
-	"github.com/rijdendetreinen/gotrain/models"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )

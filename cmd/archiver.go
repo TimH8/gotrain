@@ -5,9 +5,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rijdendetreinen/gotrain/archiver"
+	"github.com/TimH8/gotrain/archiver"
 
-	"github.com/rijdendetreinen/gotrain/receiver"
+	"github.com/TimH8/gotrain/receiver"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

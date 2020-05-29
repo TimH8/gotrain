@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rijdendetreinen/gotrain/cmd"
+	"github.com/TimH8/gotrain/cmd"
 )
 
 var (

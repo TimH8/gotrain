@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rijdendetreinen/gotrain/models"
+	"github.com/TimH8/gotrain/models"
 )
 
 func TestParseNormalDeparture(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rijdendetreinen/gotrain/models"
+	"github.com/TimH8/gotrain/models"
 )
 
 func TestArrivalsCount(t *testing.T) {

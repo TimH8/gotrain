@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/TimH8/gotrain/models"
+	"github.com/TimH8/gotrain/stores"
 	"github.com/gorilla/mux"
-	"github.com/rijdendetreinen/gotrain/models"
-	"github.com/rijdendetreinen/gotrain/stores"
 )
 
 func serviceCounters(w http.ResponseWriter, r *http.Request) {
