@@ -29,7 +29,7 @@ func Connect() error {
 		DB:       redisDbNumber,
 	})
 
-	result := redisDb.Ping()
+	result := redisDb.Ping(redisDb.Context())
 
 	return result.Err()
 }
@@ -39,7 +39,7 @@ func ProcessService(service models.Service) {
 	serviceJSON, _ := json.Marshal(serviceToJSON(service))
 
 	if serviceJSON != nil {
-		redisDb.LPush("services", string(serviceJSON))
+		redisDb.LPush(redisDb.Context(), string(serviceJSON))
 	}
 }
 
